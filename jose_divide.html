@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jose_test</title>
+    <link rel="stylesheet" href="./tailwind.css">
+ 
+</head>
+<body class="bg-white p-5 ">
+<div class="p-5 bg-red-500 rounded text-white font-semibold rounded-xl">
+<p class="text-4xl pb-3 text-bold text-center ">how to use  the division checker </p>
+<div class="pl-10">
+
+    <p class="text-2xl">
+        1. how to use decimal count ?
+    <p class="text-lg">
+        if you increase the number means <span class="bg-yellow-500 p-1 rouneded"> after point</span>  decimal number will increase  
+        okay .
+        <br><br><br>
+        <img src="./Inkedevendence_LI.jpg" alt="" class="rounded-2xl">
+        <br><br>
+        <p class="text-2xl">insert of this five option are there.</p>
+        <ul>
+            <li class="text-3xl pt-4 "> <span class="bg-yellow-500  ">normal =></span>  without decimal point</li>
+            <li class="text-3xl pt-4 "> <span class="bg-yellow-500  ">full =></span>  1.4545..</li>
+            <li class="text-3xl pt-4 "> <span class="bg-yellow-500  ">2 =></span>  1.12</li>
+            <li class="text-3xl pt-4 "><span class="bg-yellow-500">3 =></span>   1.123</li>
+            <li class="text-3xl pt-4 "><span class="bg-yellow-500">4 =></span>    1.1234</li>
+            <li class="text-3xl pt-4 "><span class="bg-yellow-500">5 =></span>     1.12345</li>
+            <li class="text-3xl pt-4 "><span class="bg-yellow-500">6 =></span>    1.123456</li>
+        </ul>
+    </p>
+    </p>
+</div>
+</div>
+    <div class=" p-5 bg-blue-500 mt-4 flex  w-full rounded-xl ">
+       
+        <div class="mx-auto ">
+            <p class="font-bold text-7xl text-white text-center mb-4 ">division  checker</p>
+            <div class="px-2 py-3 bg-green-500 focus-within:outline-none w-full sm:w-96 flex rounded">
+    
+                <label for=""  class=" py-3 w-full  text-2xl text-center">divide number:</label>
+                <input type="number"  class="p-1 mt-4 bg-transparent w-full sm:w-auto border-b-2  outline-none"  required id="divide-number">
+            </div>
+            <div class="px-2 py-3 w-full sm:w-96 bg-green-500 mt-5 flex rounded">
+    
+                <label for="" class="px-2 py-3 text-2xl w-full  text-center">by number:</label>
+                <input type="number" class="p-1 mt-4 mx-auto bg-transparent  border-b-2  outline-none sm:w-auto w-full" required  name="" id="by-number">
+            </div>
+            <div class="px-2  py-3 w-full sm:w-96 bg-green-500 mt-5 flex rounded">
+    
+                <label for="" class="px-2 py-4 text-2xl w-full text-center">decimal count:  </label>
+             <select class="px-2 py-4 border-b text-white  bg-transparent focus:outline-none " name="selector" id="selector">
+                  <option  class="rounded border-red-500 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="blank">select an option </option>
+                <option  class="rounded border-red-500 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="normal">normal</option>
+                 <option  class="rounded border-red-500 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="full">full</option>
+                 <option class="rounded border-red-400 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="2">2</option>
+                 <option class="rounded border-red-400 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="3">3</option>
+                 <option class="rounded border-red-400 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="4">4</option>
+                 <option class="rounded border-red-400 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="5">5</option>
+                 <option class="rounded border-red-400 bg-yellow-300 text-white font-bold border-b border-white outline-none" value="6">6</option>
+
+             </select>
+            </div>
+            <div class="px-2  py-3 w-full sm:w-96 bg-green-500 mt-5 flex rounded">
+    
+                <label for="" class="px-2 py-4 text-2xl w-full text-center">result number:  </label>
+                <input type="number"  class="p-1 mt-4 bg-transparent  border-b-2 sm:w-auto w-full outline-none" required  id="result">
+            </div>
+            <button onclick="blank()" class="py-3 sm:w-auto w-full text-lg mt-5 text-white drop-shadow rounded shadow font-semibold px-2 bg-yellow-400 rounded">click here for result</button>
+            <div class="flex mt-4">
+
+                <p class="bg-green-500 text-white font-extrabold px-2 py-3 text-lg sm:text-2xl rounded hidden" id="checking-right">answer is right</p>
+                <p class="bg-red-500 text-white font-extrabold px-2 py-3 ml-5 text-lg sm:text-2xl rounded hidden" id="checking-wrong">answer is wrong</p>
+            </div>
+        </div>
+    </div>
+    <div class="p-5">
+
+        <div class="p-5 w-full rounded-xl  bg-purple-200">
+            <div class="mx-auto  grid  xl:grid-cols-2 w-full xl:w-1/2 ">
+                <p class="font-bold text-white px-3 py-2 pb-7 text-3xl lg:block xl:hidden text-center">telegram help group</p>
+       <img src="telegramlogo.png"  alt="telegramlogo" class="px-1 pb-4 xl:w-auto w-full my-auto py-auto">
+       <div class="text-white font-semibold   w-full text-2xl text-blue-500">
+           <p class="font-bold text-3xl xl:block hidden text-center">telegram help group</p>
+           <p>if you want any help conact through telegram group 
+               link will be in the button are you don't know the option also don't bougher obout it 
+           </p>
+           <div class="flex ">
+
+               <button class="text-white mx-2   font-sans  lg:mx-auto px-2 py-3 my-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl"><a href="https://t.me/+ADMlDyUMhq45OGE1" target="blank">click here</a> </button>
+           </div>
+       </div>
+            </div></div>
+    </div>
+</body>
+
+<script>
+     
+    var right=document.getElementById('checking-right');
+var wrong=document.getElementById('checking-wrong')
+var checking_final=0;
+var decimal_count=document.getElementById('selector');
+   function triger(){
+    var selected=decimal_count.value;
+    // console.log(selected);
+    var divide_number=document.getElementById("divide-number").value;
+        var divide_by=document.getElementById("by-number").value;
+        
+        var divide_result=document.getElementById("result").value;
+        var checking=divide_number/divide_by;
+   
+        // decimal_count.addEventListener('input',()=>{
+            // console.log("input working");
+            if(selected=="blank"){
+                alert('select an option');
+            } 
+
+          else if(selected=="full"){
+                checking_final=checking;
+            }
+           
+            else if(selected=="normal"){
+                checking_final=parseInt(checking)
+            //   console.log("normal");
+                // console.log(checking_final);
+            }
+            /*
+            2,3,4,5,6
+            */
+            else if(selected=="2"){
+checking_final=checking.toFixed(2)
+
+// console.log(2);
+            }
+            else if(selected=="3"){
+                checking_final=checking.toFixed(3);
+                // console.log(3);
+            }
+            else if(selected=="4"){
+             checking_final=checking.toFixed(4);
+            //  console.log(4);
+            }
+            else if(selected=="5"){
+          checking_final=checking.toFixed(5);
+        //   console.log(5);
+            }
+            else if(selected=="6"){
+                checking_final=checking.toFixed(6);
+                // console.log(6);
+            }
+       
+        // console.log(checking_final);
+        var rightaudio=new Audio('right.mp3');
+        var wrongaudio=new Audio('wrong.mp3');
+        if(divide_result==checking_final){
+            console.log("answer is correct");
+            right.classList.remove('hidden');
+            wrong.classList.add('hidden');
+            rightaudio.play()
+        }
+        else{
+            console.log("answer is wrong");
+            right.classList.add('hidden');
+            wrong.classList.remove('hidden');
+            wrongaudio.play();
+        }
+    }
+    function  blank(){
+        var divide_number=document.getElementById("divide-number").value;
+        var divide_by=document.getElementById("by-number").value;
+        var divide_result=document.getElementById("result").value;
+        var condition=true;
+if(divide_number==null || divide_number==""){
+alert('enter the divide-number');
+}
+else if(divide_by==null || divide_by==""){
+alert('enter the  divide-by');
+}
+else if(divide_result==null || divide_result==""){
+alert('enter the divide_result ');
+}
+else{
+    var selected=decimal_count.value;
+        if(selected=="blank"){
+alert(' select an option  on decimal count')
+condition=false;
+        }
+        if(condition==true){
+            triger();
+        }
+}
+    }
+</script>
+</html>
